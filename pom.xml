@@ -102,6 +102,8 @@
                             <generator>
                                 <database>
                                     <includes>.*</includes>
+                                    <excludes>test2.some_other_value</excludes>
+                                    <includeExcludeColumns>true</includeExcludeColumns>
                                     <schemata>
                                         <!-- PostgreSQL is lower case by default -->
                                         <schema>
